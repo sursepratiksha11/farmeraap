@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download11"
+    tools:context="com.farming.farmeraap.expertdetails">
+
+
+    <TextView
+        android:id="@+id/textviewDDname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="137dp"
+        android:text="FARMER MANAGEMENT SYSTEM"
+        android:textColor="@color/purple_700"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textviewDDtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Default Text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+
+    <ListView
+        android:id="@+id/listviewdd"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDDBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewDDtitle" />
+
+    <Button
+        android:id="@+id/buttonDDBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
